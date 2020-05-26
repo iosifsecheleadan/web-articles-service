@@ -1,0 +1,41 @@
+html {
+    background-color: grey;
+    font-family: Arial, Helvitica, sans-serif;
+}
+
+body {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+body form {
+    padding-top: 10%;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+body form div {
+    font-size: large;
+    font-weight: normal;
+}
+
+body form div label{
+    display: inline-block;
+    width: 200px;
+
+    color: white;
+}
+
+body form div input {
+    width: 300px;
+
+    font-family: Arial, Arial, Helvitica, sans-serif;
+    font-size: medium;
+}
+
+body form a {
+    top: 10px;
+    position: relative;
+}

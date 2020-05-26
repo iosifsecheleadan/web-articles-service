@@ -1,0 +1,38 @@
+html {
+    font-family: Arial, Arial, Helvitica, sans-serif;
+}
+
+body {
+    background-color: grey;
+    color: black;
+
+    font-size: x-large;
+    font-weight: bold;
+}
+
+body form {
+    padding-top: 100px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+body form div input {
+    background-color: grey;
+    border: none;
+
+    font-family: Georgia, serif;
+    font-size: large;
+
+    width: 500px;
+}
+
+body form div textarea {
+    background-color: grey;
+
+    font-family: Georgia, serif;
+    font-size: medium;
+
+    width: 500px;
+    height: 400px;
+}

@@ -1,0 +1,18 @@
+body {
+    font-family: Georgia, serif;
+
+    padding: 0 25%;
+    top: 50px; left: 0; right: 0;
+    position: absolute;
+
+    overflow-y: auto;
+    text-align: justify;
+
+}
+
+body div label {
+    font-style: italic;
+    text-align: left;
+    margin: 10px 10px;
+}
+

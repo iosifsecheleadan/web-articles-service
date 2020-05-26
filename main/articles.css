@@ -1,0 +1,29 @@
+body {
+    font-family: Georgia, serif;
+
+    padding: 0 20%;
+    top: 50px; left: 0; right: 0;
+    position: absolute;
+
+    overflow-y: auto;
+}
+
+body article {
+    border: 2px solid black;
+    margin: 1% 0;
+    overflow-y: auto;
+}
+
+body article a {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+body article div {
+    border: none;
+    font-style: italic;
+}
+
+body article * {
+    margin: 10px 10px;
+}

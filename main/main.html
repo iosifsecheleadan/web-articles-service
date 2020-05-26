@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<!-- todo filters -->
+
+<head>
+    <title>Articles - Home</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="button.css">
+    <link rel="stylesheet" type="text/css" href="articles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="set-user.js"></script>
+    <script src="load-articles.js"></script>
+</head>
+
+<header>
+    <label id="user-name"></label>
+    <a href="main.html" class="button" id="home">Home</a>
+    <a href="../sign-in-up/sign-in.html" class="button" id="sign-in">Sign In</a>
+    <a href="../sign-in-up/sign-up.html" class="button" id="sign-up">Sign Up</a>
+    <a class="button" id="sign-out" onclick="signOUT()">Sign Out</a>
+    <a href="../add-new/add-new.html" class="button" id="post-new">Post New Article</a>
+</header>
+
+<body>
+<form id="filter-form">
+    <div>
+        <label for="start-date">Start Date : </label>
+        <input type="text" id="start-date" name="start-date" value="YYYY-MM-DD">
+    </div>
+    <div>
+        <label for="end-date">End Date : </label>
+        <input type="text" id="end-date" name="end-date" value="YYYY-MM-DD">
+    </div>
+    <div>
+        <label for="category">Category : </label>
+        <select id="category" name="category">
+            <option value="all">All</option>
+        </select>
+    </div>
+    <a class="button" onclick="searchArticles()">Search</a>
+</form>
+
+<div id="body">
+
+<!-- Articles get added here -->
+</div>
+</body>
+
+</html>
